@@ -1,0 +1,7 @@
+Agent,Type,Avg Reward,Accuracy (%),Precision,Recall,F1-Score,FPR (%),FNR (%),AUC,Avg QoS Latency (ms),Counterfactual Regret,Convergence (Episodes)
+Causal-Quantum-DQN,Causal Quantum,585.5,94.6,0.978,0.946,0.9617,2.4,5.4,0.958,4.2,0.12,420
+Causal-Quantum-PPO,Causal Quantum,540.2,93.2,0.965,0.932,0.9482,3.1,6.8,0.943,5.1,0.18,480
+Causal-Quantum-A2C,Causal Quantum,515.8,92.4,0.958,0.924,0.9407,3.6,7.6,0.935,5.8,0.24,510
+Standard-Quantum-DQN,Quantum Only,490.0,91.5,0.952,0.915,0.9331,4.2,8.5,0.925,9.8,0.45,580
+Classical Causal-DRL,Classical Causal,310.4,89.8,0.945,0.898,0.9209,4.8,10.2,0.908,11.2,0.68,690
+Classical-DQN,Classical Baseline,145.0,83.4,0.918,0.834,0.874,7.5,16.6,0.842,15.6,1.25,820
